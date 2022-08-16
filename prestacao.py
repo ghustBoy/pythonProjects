@@ -1,0 +1,5 @@
+valor = float(input("Por favor digite o valor: "))
+taxa = ("Por favor digite o vaor da taxa: ")
+tempo = ("Por favor digite o tempo: ")
+prestacao = valor + (valor * (taxa / 100) * tempo)
+print(f"O valor da prestação será de R${pretacao:.2f},00.)
